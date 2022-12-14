@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Zen+Dots&display=swap');
+
+
+.b0 {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 300px 200px 5000px #000000,inset -300px 00px 5000px #000000;
+    background-image: url("Backgrounds/1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.b1 {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 300px 200px 5000px #000000,inset -300px 00px 5000px #000000;
+    background-image: url("Backgrounds/2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.b2 {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 300px 200px 5000px #000000,inset -300px 00px 5000px #000000;
+    background-image: url("Backgrounds/3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.b3 {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 300px 200px 5000px #000000,inset -300px 00px 5000px #000000;
+    background-image: url("Backgrounds/4.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.b4 {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 300px 200px 5000px #000000,inset -300px 00px 5000px #000000;
+    background-image: url("Backgrounds/5.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.b5 {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 300px 200px 5000px #000000,inset -300px 00px 5000px #000000;
+    background-image: url("Backgrounds/6.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.b6 {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: inset 300px 200px 5000px #000000,inset -300px 00px 5000px #000000;
+    background-image: url("Backgrounds/7.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ /* -------------------------------------------------------------------------------- */
+
+nav {
+    position: sticky;
+    font-family: 'Zen dots';
+    border-bottom: 1px solid purple;
+    top: 0;
+    opacity: 0.8;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+
+nav ul li {
+    padding: 0 1rem;
+}
+
+
+.brand img {
+    width: 3.5rem;
+    padding: 0 0.5rem
+}
+
+
+.brand { 
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+
+/* -------------------------------------------------------------------------------- */
+
+
+.container {
+    font-family: 'poppins';
+    min-height: 20rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 55%;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    background-size: 100% 100%;       /* concept*/
+    margin-right: 2rem;        
+    margin-top: 6rem;      
+    box-shadow: 35px 0px 100px black;
+    box-shadow: 35px 0px 100px black, -70px -70px 100px black;
+}
+
+.bg0 {
+    background-image: url("/images/1.jpg");
+    background-size: 100% 100%;
+}
+
+.bg1 {
+    background-image: url("/images/2.jpg");
+    background-size: 100% 100%;
+}
+
+.bg2 {
+    background-image: url("/images/3.jpg");
+    background-size: 100% 100%;
+}
+
+.bg3 {
+    background-image: url("/images/4.jpg");
+    background-size: 100% 100%;
+}
+
+.bg4 {
+    background-image: url("/images/5.jpg");
+    background-size: 100% 100%;
+}
+
+.bg5 {
+    background-image: url("/images/6.jpg");
+    background-size: 100% 100%;
+}
+
+.bg6 {
+    background-image: url("/images/7.jpg");
+    background-size: 100% 100%;
+}
+
+.class0 {
+    box-shadow: 10px 250px 1000px rgb(204, 18, 18);
+    text-shadow: 4px 3px 15px rgb(40, 87, 188);
+}
+
+.class1 {
+    box-shadow: 10px 250px 1000px rgb(6, 26, 54);
+    text-shadow: 4px 3px 15px rgba(226, 223, 25, 0.733);
+}
+
+.class2 {
+    box-shadow: 10px 250px 1000px rgb(173, 37, 168);
+    text-shadow: 4px 3px 15px rgb(173, 37, 168);
+}
+
+.class3 {
+    box-shadow: 10px 250px 1000px rgb(16, 89, 10);
+    text-shadow: 4px 3px 15px rgb(44, 164, 33);
+}
+
+.class4 {
+    box-shadow: 10px 250px 1000px rgb(84, 83, 32);
+    text-shadow: 4px 3px 15px rgb(179, 179, 179);
+}
+
+.class5 {
+    box-shadow: 10px 250px 1000px rgba(44, 159, 156, 0.67);
+    text-shadow: 4px 3px 15px rgb(255, 192, 247);
+}
+
+.class6 {
+    box-shadow: 10px 200px 1000px rgba(108, 108, 108, 0.733);
+    text-shadow: 8px 5px 15px rgb(204, 18, 18);
+}
+
+
+.songItem {
+    display: flex;
+    justify-content: space-between;                 /* concept*/
+    align-items: center;
+    height: 3rem;
+    width: 28rem;
+    background-color: rgba(10, 10, 10, 0.6);
+    color: white;
+    margin: 0.8rem 0;
+    border-radius: 0.5rem;
+    border:1px solid transparent;
+    padding-left: 0.3rem;
+}
+
+
+.songBox {
+    height: 3.4rem;
+    width: 29rem;
+    margin-bottom: 1rem;
+}
+
+
+.songItem:hover {
+    background-color: rgba(0, 0, 0, 0.685);
+    border: 1px solid rgba(185, 44, 217, 0.6);
+    height: 3.3rem;
+    width: 28.5rem;
+}
+
+.hoVer {
+    background-color: rgba(0, 0, 0, 0.685);
+    border: 1px solid rgba(185, 44, 217, 0.6);
+    height: 3.3rem;
+    width: 28.5rem;
+}
+
+
+
+.songItemContainer {
+    margin-top: 2rem;
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(50, 50, 50, 0.092);
+    border-radius: 0.5rem;
+}
+
+
+.songItem img {
+    height: 2.7rem;
+    width: 2.7rem;
+    border-radius: 50%;
+    margin-left: 0.15rem;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+/* -------------------------------------------------------------------------------- */
+
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins';
+    position: sticky;
+    height: 7rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    color: white;
+    bottom: 0;
+    flex-direction: column;
+    border: 2px solid transparent;
+    accent-color: purple;
+}
+
+.bottom:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-left: 2px solid rgba(185, 44, 217, 0.6);
+}
+
+
+.bottomInnerContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 26rem;
+}
+
+
+.songInfo {
+    max-height: 2rem;
+    min-width: 8rem;
+    margin-top: 1.8rem;
+}
+
+#songTitle {
+    border: 2px solid white;
+    padding: 0 0.5rem;
+    
+}
+
+
+.songInfo img {
+    height: 2rem;
+    width: 10rem;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    border-radius: 5px;
+}
+
+.songTitle {
+    position: absolute;
+    bottom: 0.7vw;
+    left: 3vw;
+}
+
+
+.icons {
+    margin-top:1.5rem;
+    position: static;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.fa-regular {
+    margin: 0 1rem;
+}
+#progressBar { 
+    width: 85vw;
+    cursor: pointer;
+    background-color: purple;
+}
+
+
